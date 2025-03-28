@@ -3,26 +3,22 @@
 Welcome to **"100 Exercises To Learn Rust"**!
 
 <div class="warning">
-এই বই টি 100 Exercises To Learn Rust এর বাংলা অনুবাদ । আপনি যদি english এ পড়তে আগ্রহী হন, তাহলে <a href="https://rust-exercises.com/100-exercises/" target="_blank">এখান থেকে</a> পড়তে পারবেন ।
+    এই বই টি 100 Exercises To Learn Rust এর বাংলা অনুবাদ । আপনি যদি english এ পড়তে আগ্রহী হন, তাহলে <a href="https://rust-exercises.com/100-exercises/" target="_blank">এখান থেকে</a> পড়তে পারবেন ।
 </div>
 
-This course will teach you Rust's core concepts, one exercise at a time.\
-You'll learn about Rust's syntax, its type system, its standard library, and its ecosystem.
+এই course টা আমাদের Rust এর core concept গুলো শেখাবে, one exercise at a time.\
+এখানে আমরা Rust এর syntax, এটার (strong) type system, standard library আর এর ecosystem নিয়ে শিখবো ইনশাআল্লাহ।
 
-We don't assume any prior knowledge of Rust, but we assume you know at least
-another programming language.
-We also don't assume any prior knowledge of systems programming or memory management. Those
-topics will be covered in the course.
+এই course follow করতে হলে rust এর prior knowledge এর দরকার নেই । তবে, অন্য যে কোনো একটা programming language এর prior experience থাকা লাগবে ।
+একি সাথে আমরা expect করছি না যে systems programming বা memory management (related) topic গুলোে নিয়ে reader এর expereince আছে । সেগুলো এই বই এ cover করবে ।
 
 In other words, we'll be starting from scratch!\
-You'll build up your Rust knowledge in small, manageable steps.
-By the end of the course, you will have solved ~100 exercises, enough to
-feel comfortable working on small to medium-sized Rust projects.
+Reader ছোট ছোট manageable step এ Rust এর knowledge build up করবে ।
+এই বই (টা পড়া শেষে) আমরা প্রায় ১০০ এর মত exercise solve করবো, যেটা ছোট থেকে medium-size Rust project এ কাজ করার জন্য যথেষ্ট হবে (hopefully) .
 
 ## Methodology
 
-This course is based on the "learn by doing" principle.\
-It has been designed to be interactive and hands-on.
+এই বই টা "learn by doing" principle follow করে , আর design করা হয়েছে interactive আর hands-on হতে ।
 
 [Mainmatter](https://mainmatter.com/rust-consulting/) developed this course
 to be delivered in a classroom setting, over 4 days: each attendee advances
