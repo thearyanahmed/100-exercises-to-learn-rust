@@ -1,13 +1,16 @@
 # Learn Rust, one exercise at a time
 
-You've heard about Rust, but you never had the chance to try it out?\
-This course is for you!
+যদি আপনি Rust শিখতে আগ্রহী থাকেন, this course is for you. এখানে বাংলায় Rust এর basic topic
+গুলো থেকে শুরু করে small to medium size project এ কাজ করার জন্য যা লাগবে সেগুলো নিয়ে আলোচনা করা হবে ।
+From syntax, type system, standard library আর ecosystem নিয়ে ।
 
-You'll learn Rust by solving 100 exercises.\
-You'll go from knowing nothing about Rust to being able to start
-writing your own programs, one exercise at a time.
+Chapter আর exercise, both ছোটো ছোটো, byte size portion এ । Making it easier for the reader.
+
 
 > [!NOTE]
+> এই book টা original course এর translation + কিছু added content, যাতে reader এর বুঝতে সুবিধা হয় ।\
+> যদি ভূল পেয়ে থাকেন, coding, configuration, spelling, concept or anything else, feel free to create an issue বা better, send PR.
+> এই topic এ আলোচনা করতে চাইলে reach out করতে পারেন আমার [linked in/thearyanahmed](https://www.linkedin.com/in/thearyanahmed/) এ বা [Aryan's Journal Substack](https://thearyanahmed.substack.com/) এ ।
 > This course has been written by [Mainmatter](https://mainmatter.com/rust-consulting/).\
 > It's one of the trainings in [our portfolio of Rust workshops](https://mainmatter.com/services/workshops/rust/).\
 > Check out our [landing page](https://mainmatter.com/rust-consulting/) if you're looking for Rust consulting or
@@ -39,3 +42,12 @@ the [`solutions` branch](https://github.com/thearyanahmed/100-exercises-to-learn
 
 Copyright © 2024- Mainmatter GmbH (https://mainmatter.com), released under the
 [Creative Commons Attribution-NonCommercial 4.0 International license](https://creativecommons.org/licenses/by-nc/4.0/).
+
+# License for Bengali Translation
+
+বাংলা content টুকুও Copyright protected । নিজের site/blog/somewhere এ copy paste করে নিজের নামে চালিয়ে না দেয়া । বা generated PDF/ePUB directly বা indirectly
+print করে hardcopy sell না করা ।
+
+Copyright © 2025 - thearyanahmed (https://linkedin.com/in/thearyanahmed), released under the
+[Creative Commons Attribution-NonCommercial 4.0 International license](https://creativecommons.org/licenses/by-nc/4.0/) .
+
