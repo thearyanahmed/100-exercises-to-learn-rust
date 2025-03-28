@@ -33,7 +33,7 @@ to get started with the course.
 ## Solutions
 
 You can find the solutions to the exercises in
-the [`solutions` branch](https://github.com/mainmatter/100-exercises-to-learn-rust/tree/solutions) of this repository.
+the [`solutions` branch](https://github.com/thearyanahmed/100-exercises-to-learn-rust/tree/solutions) of this repository.
 
 # License
 

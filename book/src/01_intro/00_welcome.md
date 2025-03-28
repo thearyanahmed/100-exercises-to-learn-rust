@@ -30,7 +30,7 @@ If you'd like to organise a private session for your company, please [get in tou
 You can also take the courses on your own, but we recommend you find a friend or
 a mentor to help you along the way should you get stuck. You can
 find solutions for all exercises in the
-[`solutions` branch of the GitHub repository](https://github.com/mainmatter/100-exercises-to-learn-rust/tree/solutions).
+[`solutions` branch of the GitHub repository](https://github.com/thearyanahmed/100-exercises-to-learn-rust/tree/solutions).
 
 ## Formats
 
