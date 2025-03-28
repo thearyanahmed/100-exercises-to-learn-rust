@@ -9,7 +9,7 @@ Chapter আর exercise, both ছোটো ছোটো, byte size portion এ �
 
 > [!NOTE]
 > এই book টা original course এর translation + কিছু added content, যাতে reader এর বুঝতে সুবিধা হয় ।\
-> যদি ভূল পেয়ে থাকেন, coding, configuration, spelling, concept or anything else, feel free to create an issue বা better, send PR.\
+> যদি ভূল পেয়ে থাকেন, coding, configuration, spelling, concept or anything else, feel free to create an issbetter, <u>send PR</u> ।\
 > এই topic এ আলোচনা করতে চাইলে reach out করতে পারেন আমার [linkedin/thearyanahmed](https://www.linkedin.com/in/thearyanahmed/) এ বা [Aryan's Journal Substack](https://thearyanahmed.substack.com/) এ ।\
 > \
 > This course has been written by [Mainmatter](https://mainmatter.com/rust-consulting/).\
