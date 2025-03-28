@@ -1,6 +1,10 @@
-# Welcome
+# Welcome, and hello
 
 Welcome to **"100 Exercises To Learn Rust"**!
+
+<div class="warning">
+এই বই টি 100 Exercises To Learn Rust এর বাংলা অনুবাদ । আপনি যদি english এ পড়তে আগ্রহী হন, তাহলে <a href="https://rust-exercises.com/100-exercises/" target="_blank">এখান থেকে</a> পড়তে পারবেন ।
+</div>
 
 This course will teach you Rust's core concepts, one exercise at a time.\
 You'll learn about Rust's syntax, its type system, its standard library, and its ecosystem.
