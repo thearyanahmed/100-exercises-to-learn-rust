@@ -4,7 +4,7 @@
 
 Don't jump ahead!\
 Complete the exercise for the previous section before you start this one.\
-It's located in `exercises/01_intro/00_welcome`, in the [course GitHub's repository](https://github.com/mainmatter/100-exercises-to-learn-rust).\
+It's located in `exercises/01_intro/00_welcome`, in the [course GitHub's repository](https://github.com/thearyanahmed/100-exercises-to-learn-rust).\
 Use [`wr`](00_welcome.md#wr-the-workshop-runner) to start the course and verify your solutions.
 
 </div>

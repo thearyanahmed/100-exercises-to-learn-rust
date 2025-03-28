@@ -10,7 +10,7 @@ Welcome to **"100 Exercises To Learn Rust"**!
 এখানে আমরা Rust এর syntax, এটার (strong) type system, standard library আর এর ecosystem নিয়ে শিখবো ইনশাআল্লাহ।
 
 এই course follow করতে হলে rust এর prior knowledge এর দরকার নেই । তবে, অন্য যে কোনো একটা programming language এর prior experience থাকা লাগবে ।
-একি সাথে আমরা expect করছি না যে systems programming বা memory management (related) topic গুলোে নিয়ে reader এর expereince আছে । সেগুলো এই বই এ cover করবে ।
+একি সাথে আমরা expect করছি না যে systems programming বা memory management (related) topic গুলো নিয়ে reader এর expereince আছে । সেগুলো এই বই এ cover করবে ।
 
 In other words, we'll be starting from scratch!\
 Reader ছোট ছোট manageable step এ Rust এর knowledge build up করবে ।
@@ -44,14 +44,14 @@ Each section introduces a new concept or feature of the Rust language.\
 To verify your understanding, each section is paired with an exercise that you need to solve.
 
 You can find the exercises in the
-[companion GitHub repository](https://github.com/mainmatter/100-exercises-to-learn-rust).\
+[companion GitHub repository](https://github.com/thearyanahmed/100-exercises-to-learn-rust).\
 Before starting the course, make sure to clone the repository to your local machine:
 
 ```bash
 # If you have an SSH key set up with GitHub
 git clone git@github.com:mainmatter/100-exercises-to-learn-rust.git
 # Otherwise, use the HTTPS URL:
-#   https://github.com/mainmatter/100-exercises-to-learn-rust.git
+#   https://github.com/thearyanahmed/100-exercises-to-learn-rust.git
 ```
 
 We also recommend you work on a branch, so you can easily track your progress and pull
