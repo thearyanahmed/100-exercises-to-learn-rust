@@ -2,23 +2,32 @@
 
 Welcome to **"100 Exercises To Learn Rust"**!
 
-<div class="warning">
-    এই বই টি 100 Exercises To Learn Rust এর বাংলা অনুবাদ । আপনি যদি english এ পড়তে আগ্রহী হন, তাহলে <a href="https://rust-exercises.com/100-exercises/" target="_blank">এখান থেকে</a> পড়তে পারবেন ।
-</div>
-
 এই course টা আমাদের Rust এর core concept গুলো শেখাবে, one exercise at a time.\
 এখানে আমরা Rust এর syntax, এটার (strong) type system, standard library আর এর ecosystem নিয়ে শিখবো ইনশাআল্লাহ।
 
 এই course follow করতে হলে rust এর prior knowledge এর দরকার নেই । তবে, অন্য যে কোনো একটা programming language এর prior experience থাকা লাগবে ।
 একি সাথে আমরা expect করছি না যে systems programming বা memory management (related) topic গুলো নিয়ে reader এর expereince আছে । সেগুলো এই বই এ cover করবে ।
 
-In other words, we'll be starting from scratch!\
+In other words, we'll be starting <u>from scratch</u>!
+
 Reader ছোট ছোট manageable step এ Rust এর knowledge build up করবে ।
 এই বই (টা পড়া শেষে) আমরা প্রায় ১০০ এর মত exercise solve করবো, যেটা ছোট থেকে medium-size Rust project এ কাজ করার জন্য যথেষ্ট হবে (hopefully) .
 
 ## Methodology
 
 এই বই টা "learn by doing" principle follow করে , আর design করা হয়েছে interactive আর hands-on হতে ।
+
+<div class="warning">
+    এই বই টি 100 Exercises To Learn Rust এর বাংলা অনুবাদ । আপনি যদি english এ পড়তে আগ্রহী হন, তাহলে <a href="https://rust-exercises.com/100-exercises/" target="_blank">এখান থেকে</a> পড়তে পারবেন ।
+</div>
+
+## লেখক এবং অনুবাদকারী সম্পর্কে
+
+এই course টা Luca Palmieri তৈরি করেছেন। উনি বর্তমানে Principal Engineering Consultant হিসাবে Mainmatter এ আছেন .
+এই বইটি অনুবাদ করেছে <a href="https://thearyanahmed.com/whoami/" target="_blank">Aryan</a>, বর্তমানে DigitalOcean এ Software Engineer হিসাবে কাজ করছি । আমার সাথে যোগাযোগ করতে হলে [linkedin.com/in/thearyanahmed/](https://www.linkedin.com/in/thearyanahmed/) এ reach out করতে পারেন ।
+
+
+## Mainmatter
 
 [Mainmatter](https://mainmatter.com/rust-consulting/) developed this course
 to be delivered in a classroom setting, over 4 days: each attendee advances
@@ -37,19 +46,17 @@ find solutions for all exercises in the
 You can go through the course material [in the browser](https://rust-exercises.com/100-exercises/) or [download it as a PDF file](https://rust-exercises.com/100-exercises-to-learn-rust.pdf), for offline reading.\
 If you prefer to have the course material printed out, [buy a paperback copy on Amazon](https://www.amazon.com/dp/B0DJ14KQQG/).
 
-## Structure
+## বই-Structure
 
-On the left side of the screen, you can see that the course is divided into sections.
-Each section introduces a new concept or feature of the Rust language.\
-To verify your understanding, each section is paired with an exercise that you need to solve.
+Screen এর বামপাশে বইটি বিভিন্ন section-এ ভাগ করা হয়েছে। প্রতিটি section নতুন concept বা feature তৈরি করে । আপনি ঠিক মত বুঝতে পারছেন কিনা সেটা যাচাই করার জন্য প্রতিটি section এর সাথে exercise paired থাকছে ।
 
 You can find the exercises in the
 [companion GitHub repository](https://github.com/thearyanahmed/100-exercises-to-learn-rust).\
-Before starting the course, make sure to clone the repository to your local machine:
+বই টা শুরু করার আগে, make sure to clone the repository. And I recommend, যদি কয়েকজন মিলে শিখতে পারেন । তাহলে অনেক কিছু নওজে
 
 ```bash
 # If you have an SSH key set up with GitHub
-git clone git@github.com:mainmatter/100-exercises-to-learn-rust.git
+git clone git@github.com:thearyanahmed/100-exercises-to-learn-rust.git
 # Otherwise, use the HTTPS URL:
 #   https://github.com/thearyanahmed/100-exercises-to-learn-rust.git
 ```
@@ -85,6 +92,7 @@ Install `wr` by following the instructions on [its website](https://mainmatter.g
 
 Once you have `wr` installed, open a new terminal and navigate to the top-level folder of the repository.
 Run the `wr` command to start the course:
+
 
 ```bash
 wr
