@@ -1,5 +1,7 @@
 # Learn Rust, one exercise at a time
 
+## Translation In Progress
+
 যদি আপনি Rust শিখতে আগ্রহী থাকেন, this course is for you. এখানে বাংলায় Rust এর basic topic
 গুলো থেকে শুরু করে small to medium size project এ কাজ করার জন্য যা লাগবে সেগুলো নিয়ে আলোচনা করা হবে ।
 From syntax, type system, standard library আর ecosystem নিয়ে ।
