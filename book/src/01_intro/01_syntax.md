@@ -3,9 +3,10 @@
 <div class="warning">
 
 Don't jump ahead!\
-আগের section এর exercise complete করার পরে এই section টি শুরু করা উচিত (for every chapter) ।\
-Exercise টি পাবেন [course GitHub's repository](https://github.com/thearyanahmed/100-exercises-to-learn-rust) repository'র exercise directory তে (`exercises/01_intro/00_welcome`)।\
-Exercise এর solution গুলো complete করে [`wr`](00_welcome.md#wr-the-workshop-runner) দিয়ে verify করতে পারেন ।
+ \
+আগের section এর exercise complete করার পরে এই section টি শুরু করা উচিত (for every chapter) ।
+Exercise টি পাবেন [course GitHub's repository](https://github.com/thearyanahmed/100-exercises-to-learn-rust) repository'র exercise directory তে (`exercises/01_intro/00_welcome`)।
+Exercise এর solution গুলো complete করে [`wr`](00_welcome.md#workshop-runner-wr) দিয়ে verify করতে পারেন ।
 
 </div>
 
