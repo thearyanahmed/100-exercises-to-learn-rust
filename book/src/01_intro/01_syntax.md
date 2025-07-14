@@ -101,7 +101,7 @@ fn greet(name: &str) -> String {
 
 ### Type annotations
 
-যেহেতু আমরা "types" কয়েকবার mention করেছি, সেহেতু clearly বলে নেই, Rust একটা **statically typed language** । Rust এর প্রতিটি value'র একটি type থাকে, আার compile time এ ঐ type **অবশ্যই** জানা থাকতে হবে (compiler এর) ।
+যেহেতু আমরা "types" কয়েকবার mention করেছি, সেহেতু clearly বলে নেই, Rust একটা **statically typed language** । Rust এর প্রতিটি value'র একটি type থাকে, আর compile time এ ঐ type **অবশ্যই** জানা থাকতে হবে (compiler এর) ।
 
 Type এর মাধ্যমে আমরা একধরণের **static analysis** এর way . ধরতে পারেন type গুলো একধরণের **tag** যেটা compiler প্রতিটি value'র সাথে add করে । আর এই tag এর উপর depend করে compiler আলাদা আলাদা rules enforce করতে পারে । যেমন আপনি একটা string আর number mathematically যোগ করতে পারবে না । কিন্তু ২ টা number কে পারবেন ।
 ঠিকমত স্বদ-ব্যবহার করতে পারলে অনেক ধরণের runtime bugs prevent করতে পারে এই type system ।
