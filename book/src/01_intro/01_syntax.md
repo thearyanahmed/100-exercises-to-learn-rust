@@ -3,21 +3,20 @@
 <div class="warning">
 
 Don't jump ahead!\
-Complete the exercise for the previous section before you start this one.\
-It's located in `exercises/01_intro/00_welcome`, in the [course GitHub's repository](https://github.com/thearyanahmed/100-exercises-to-learn-rust).\
-Use [`wr`](00_welcome.md#wr-the-workshop-runner) to start the course and verify your solutions.
+আগের section এর exercise complete করার পরে এই section টি শুরু করা উচিত (for every chapter) ।\
+Exercise টি পাবেন [course GitHub's repository](https://github.com/thearyanahmed/100-exercises-to-learn-rust) repository'র exercise directory তে (`exercises/01_intro/00_welcome`)।\
+Exercise এর solution গুলো complete করে [`wr`](00_welcome.md#wr-the-workshop-runner) দিয়ে verify করতে পারেন ।
 
 </div>
 
-The previous task doesn't even qualify as an exercise, but it already exposed you to quite a bit of Rust **syntax**.
-We won't cover every single detail of Rust's syntax used in the previous exercise.
-Instead, we'll cover _just enough_ to keep going without getting stuck in the details.\
+আগের task টি exercise হিসাবে গোনা উচিত না, তবে এটি আপনাকে বেশ কিছু Rust **syntax** এর সাথে পরিচিত করেছে।
+আমরা গত exercise এ use করা rust syntax every single detail (এখনি) explain করবো না । Instead, আমরা _just enough_ over করবো, যাতে আমরা সামনে আগাতে পারি (without getting stuck in the details) ।\
+
 One step at a time!
 
 ## Comments
 
-You can use `//` for single-line comments:
-
+`//` দিয়ে code এ single-line comment করতে পারেন ।
 ```rust
 // This is a single-line comment
 // Followed by another single-line comment
@@ -25,11 +24,9 @@ You can use `//` for single-line comments:
 
 ## Functions
 
-Functions in Rust are defined using the `fn` keyword, followed by the function's name, its input parameters, and its
-return type.
-The function's body is enclosed in curly braces `{}`.
+Rust এ `fn` keyword দিয়ে function define করা হয়, তারপরে function এর name, function টির input parameters, আর তার return type. আর function এর body curly braces বা বাংলায় যেটাকে ২য় (second) bracket বলে সেটা দিয়ে enclose করে দেয়া হয় ।
 
-In previous exercise, you saw the `greeting` function:
+আগের exercise এ আপনারা `greeting` function এর example দেখেছিলেন,
 
 ```rust
 // `fn` <function_name> ( <input params> ) -> <return_type> { <body> }
@@ -39,13 +36,12 @@ fn greeting() -> &'static str {
 }
 ```
 
-`greeting` has no input parameters and returns a reference to a string slice (`&'static str`).
+`greeting` এর কোনো input parameter নেই আর এটি একটা string slice (`&'s static str`) এর reference return করছে । **যদি এগুলো বুঝতে অসুবিধা হয়, be patient**.
 
 ### Return type
 
-The return type can be omitted from the signature if the function doesn't return anything (i.e. if it returns `()`,
-Rust's unit type).
-That's what happened with the `test_welcome` function:
+একটা function যদি কিছু return না করে তাহলে function define করার সময় return type omit করা যায় । তবে rust এর প্রতিটি function কিছু না কিছু return করে । যদি একটি function specific ভাবে কিছু return না করে, সেক্ষেত্রে এটা আসলে unit type `()` return করে ।
+আর `test_welcome` function এ এটাই হয়েছে ।
 
 ```rust
 fn test_welcome() {
@@ -53,7 +49,7 @@ fn test_welcome() {
 }
 ```
 
-The above is equivalent to:
+উপরের function টি এই নিচের function টির equivalent:
 
 ```rust
 // Spelling out the unit return type explicitly
@@ -65,7 +61,7 @@ fn test_welcome() -> () {
 
 ### Returning values
 
-The last expression in a function is implicitly returned:
+একটি function-এর শেষ expression হলো implicite ভাবে (বা নির্দিষ্ট ভাবে) return করার data type
 
 ```rust
 fn greeting() -> &'static str {
@@ -75,7 +71,7 @@ fn greeting() -> &'static str {
 }
 ```
 
-You can also use the `return` keyword to return a value early:
+আবার চাইলে ‌`return` keyword দিয়ে early value return করা যেতে পারে ।
 
 ```rust
 fn greeting() -> &'static str {
@@ -84,7 +80,7 @@ fn greeting() -> &'static str {
 }
 ```
 
-It is considered idiomatic to omit the `return` keyword when possible.
+Idiomatic rust হলো যখন `return` omit করা possible, তখন omit করা ।
 
 ### Input parameters
 
