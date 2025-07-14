@@ -116,3 +116,11 @@ the go-to resource for learning how to build backend applications in Rust.\
 He is also the author and maintainer of a variety of open-source Rust projects, including
 [`cargo-chef`](https://github.com/LukeMathWalker/cargo-chef),
 [Pavex](https://pavex.dev) and [`wiremock`](https://github.com/LukeMathWalker/wiremock-rs).
+
+## Bangla translation
+
+Luca Palmieri'র কাজের উপর base করে বাংলায় এই বইটি complete করা হয়েছে । উদ্দেশ্য ছিলো সহজে বোঝা যায় এরকম বাংলায় translate করা । যার কারণে এই বইটি হুবহুব word by word translation না । এছাড়া, অনেকদিন যাবত industry'র অনেকের সাথে কথা বলে ও কাজ করার পরে বর্তামানে বাংলাদেশের industry'র কথা চিন্তা করে translate করা হচ্ছে। যার জন্য কিছু যায়গায় কম বা বেশি কথা add বা subtract করা হয়েছে ।
+
+Translation এর কাজ করেছে মূলত [Aryan Ahmed](https://www.linkedin.com/in/thearyanahmed/), Software Engineer At DigitalOcean ।
+
+বাংলা translation টি বাংলার মানুষের জন্য । বাংলার, শুধু বাংলাদেশের না । বাংলাদেশ, ভারতের যেসব অংশে মানুষেরা বাংলায় কথায় বলেন, বা যে কেউ বাংলা শিখেছেন তাদের সকলের জন্য । 
