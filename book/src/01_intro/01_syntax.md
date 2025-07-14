@@ -85,10 +85,9 @@ Idiomatic rust হলো যখন `return` omit করা possible, তখন o
 
 ### Input parameters
 
-Input parameters are declared inside the parentheses `()` that follow the function's name.\
-Each parameter is declared with its name, followed by a colon `:`, followed by its type.
+Input parameter গুলো decleare করা হয় function এর নামের পরের parenthesis (বা বাংলায় যেটাকে ১ম / প্রথম bracket বলে) `()`. আর প্রতিটি parameter এর নিজের একটি নাম থাকে, followed by a color `:` । আর colon এর পরে থাকে এর (data) type.
 
-For example, the `greet` function below takes a `name` parameter of type `&str` (a "string slice"):
+For example, এই `green` function `name‌` নামের একটি `&str` type এর input parameter নেয় । `&str` হলো string slice.
 
 ```rust
 // An input parameter
@@ -98,15 +97,14 @@ fn greet(name: &str) -> String {
 }
 ```
 
-If there are multiple input parameters, they must be separated with commas.
+যদি একাধিক input parameter থাকে, তাহলে সেগুলো comma দিয়ে separate করা হয় ।
 
 ### Type annotations
 
-Since we've been mentioned "types" a few times, let's state it clearly: Rust is a **statically typed language**.\
-Every single value in Rust has a type and that type must be known to the compiler at compile-time.
+যেহেতু আমরা "types" কয়েকবার mention করেছি, সেহেতু clearly বলে নেই, Rust একটা **statically typed language** । Rust এর প্রতিটি value'র একটি type থাকে, আার compile time এ ঐ type **অবশ্যই** জানা থাকতে হবে (compiler এর) ।
 
-Types are a form of **static analysis**.\
-You can think of a type as a **tag** that the compiler attaches to every value in your program. Depending on the
-tag, the compiler can enforce different rules—e.g. you can't add a string to a number, but you can add two numbers
-together.
-If leveraged correctly, types can prevent whole classes of runtime bugs.
+Type এর মাধ্যমে আমরা একধরণের **static analysis** এর way . ধরতে পারেন type গুলো একধরণের **tag** যেটা compiler প্রতিটি value'র সাথে add করে । আর এই tag এর উপর depend করে compiler আলাদা আলাদা rules enforce করতে পারে । যেমন আপনি একটা string আর number mathematically যোগ করতে পারবে না । কিন্তু ২ টা number কে পারবেন ।
+ঠিকমত স্বদ-ব্যবহার করতে পারলে অনেক ধরণের runtime bugs prevent করতে পারে এই type system ।
+
+এটা in general, শুধু rust এর ক্ষেত্রে না । তবে rust খুব সুন্দর করে implement (and enforce) করে ।
+
